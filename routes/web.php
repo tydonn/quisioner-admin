@@ -4,12 +4,12 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 
 // dashboard pages
-Route::get('/', function () {
-    return view('pages.dashboard.ecommerce', ['title' => 'E-commerce Dashboard']);
-})->name('dashboard');
+// Route::get('/', function () {
+//     return view('pages.dashboard.ecommerce', ['title' => 'E-commerce Dashboard']);
+// })->name('dashboard');
 
 // dashboard2 pages
-Route::get('/dashboard2', function () {
+Route::get('/', function () {
     return view('pages.dashboard2', ['title' => 'Dashboard 2']);
 })->name('dashboard2');
 

@@ -17,7 +17,7 @@ class MenuHelper
             [
                 'icon' => 'dashboard',
                 'name' => 'Dashboard',
-                'path' => '/dashboard2',
+                'path' => '/',
             ],
             [
                 'name' => 'Master Data',
