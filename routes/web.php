@@ -8,6 +8,41 @@ Route::get('/', function () {
     return view('pages.dashboard.ecommerce', ['title' => 'E-commerce Dashboard']);
 })->name('dashboard');
 
+// dashboard2 pages
+Route::get('/dashboard2', function () {
+    return view('pages.dashboard2', ['title' => 'Dashboard 2']);
+})->name('dashboard2');
+
+// question category pages
+Route::get('/question-category', function () {
+    return view('pages.master-data.question-category', ['title' => 'Question Category']);
+})->name('question-category');
+
+// question bank pages
+Route::get('/question-bank', function () {
+    return view('pages.master-data.question-bank', ['title' => 'Question Bank']);
+})->name('question-bank');
+
+// responden pages
+Route::get('/responden', function () {
+    return view('pages.responden', ['title' => 'Responden']);
+})->name('responden');
+
+// result & analytics pages
+Route::get('/result-analytics', function () {
+    return view('pages.result-analytics', ['title' => 'Result & Analytics']);
+})->name('result-analytics');
+
+// report pages
+Route::get('/report', function () {
+    return view('pages.report', ['title' => 'Report']);
+})->name('report');
+
+// report pages
+Route::get('/follow-up', function () {
+    return view('pages.follow-up', ['title' => 'Follow Up']);
+})->name('follow-up');
+
 // calender pages
 Route::get('/calendar', function () {
     return view('pages.calender', ['title' => 'Calendar']);
@@ -82,25 +117,3 @@ Route::get('/image', function () {
 Route::get('/videos', function () {
     return view('pages.ui-elements.videos', ['title' => 'Videos']);
 })->name('videos');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
